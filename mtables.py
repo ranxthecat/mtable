@@ -14,7 +14,7 @@ import sys
 import random
 
 if len(sys.argv) < 5:
-    print 'usage: mtables.py <lowend> <highend> <numquestions> <filename>\n'
+    print 'usage: mtables.py <lowend> <highend> <numquestions> <filename> <<musthave1..musthaveN>>\n'
     print 'generates multiplication tables between lowend and highend in a file named \"filename.txt\"'
     print 'also generates answers in <filename>.answers'
     print ' optional parameters <<musthave1>> .. <<musthaven>> indicate numbers which must be present in questions'
